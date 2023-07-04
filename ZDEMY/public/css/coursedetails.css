@@ -1,0 +1,153 @@
+#course-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 8vw;
+}
+
+#course-inner h3{
+  padding: 35px 0 25px 0;
+  color: white;
+}
+
+#course-inner p{
+  color: white;
+}
+
+#course-inner hr{
+  height: 1px;
+  background: rgba(236,226,229,0.5);
+  margin-top: 40px;
+}
+
+#course-inner .overview{
+  width: 70%;
+}
+
+#course-inner .overview .course-img{
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+#course-inner .overview .course-head{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#course-inner .overview .course-head .c-name{
+  width: 70%;
+}
+
+#course-inner .overview .course-head .c-name h2{
+  color: white;
+}
+
+#course-inner .overview .course-head .c-name .star{
+  margin: 6px 0;
+}
+
+#course-inner .overview .course-head .c-name .star i{
+  color: #FDC93B;
+  font-size: 0.9rem;
+}
+
+.stars {
+    background: #1f2641 !important;
+    color: #FDC93B;
+    font-size: 0.9rem !important;
+}
+
+.enrolls{
+    
+    background: #1f2641 !important;
+    color: white !important;
+    font-size: 0.9rem !important;
+}
+
+#course-inner .overview .course-head .c-name p{
+  font-size: 15px;
+}
+
+#course-inner .overview .course-head span{
+  padding: 16px 22px;
+  border-radius: 5px;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #424890;
+}
+
+#course-inner .learn p{
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+
+#course-inner .learn p i{
+  color: #654ce4;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+#course-inner .tutor{
+  display: flex;
+}
+
+#course-inner .tutor img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+#course-inner .tutor h5{
+  font-size: 15px;
+}
+
+#course-inner .enroll{
+  width: 300px;
+  padding: 0 30px 30px 30px;
+  background: #424890;
+  border-radius: 11px;
+  box-shadow: 0px 20px 40px 0 rgb(11 2 55/8%);
+}
+
+#course-inner .enroll h3{
+  padding-bottom: 10px;
+}
+
+#course-inner .enroll p{
+  font-size: 15px;
+  color: white;
+  margin: 15px 0;
+}
+
+#course-inner .enroll i{
+  margin-right: 18px;
+  text-align: center;
+}
+
+#course-inner .enroll .enroll-btn{
+  padding: 25px 0 20px 0;
+  margin: auto;
+  text-align: center;
+}
+
+#course-inner .enroll .enroll-btn a{
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  font-size: .8rem;
+  padding: 13px 45px;
+  border-radius: 5px;
+  font-weight: 600;
+  color: white;
+  background: rgb(50,50,136);
+}
+
+.star{
+    background: #1f2641;
+}

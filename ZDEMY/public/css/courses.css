@@ -1,0 +1,117 @@
+.courses__container {
+    margin-top: 2.7rem;
+    margin-bottom: 4.7rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.courses__container .learn{
+    margin: 0 auto;
+}
+
+
+/* styling for categories */
+
+
+.catecontainer {
+    background: #424890;
+    border: 1px solid #000; /* Add a border to the parent container */
+    border-radius: 10px; /* Apply rounded borders */
+    padding: 12px 60px; /* Add padding inside the parent container */
+}
+
+.catecontainer:hover{
+    cursor: pointer;
+}
+
+.dropdowncontainer{
+    float:left;
+    margin-top: 80px;
+    margin-right: 4.7rem;
+    margin-bottom: 6.5rem;
+    margin-left: 140px;
+
+}
+
+
+.dropdowncontainer ul li{
+    background: #22438C;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+
+.dropdowncontainer ul.dropdown{
+    margin-top: 9px;
+    width: 20%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+.dropdowncontainer ul li:hover{
+    display: block;
+    background: red;
+    cursor: pointer;
+}
+
+.dropdowncontainer .dropdown {
+    display: none; /* Hide the dropdown by default */
+}
+
+.dropdowncontainer:hover .dropdown {
+    display: block; /* Display the dropdown when the parent is hovered */
+}
+
+
+
+/* ul li:hover ul.dropdown{
+    display: block;
+} */
+
+
+
+/* navigation bar fixing */
+
+
+ /* styling search bar */
+ .search input[type=text]{
+    width:900px;
+    height:40px;
+    border-radius:25px;
+    border: none;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.search{
+    float:right;
+    margin-top: 4.7rem;
+    /* margin-left: 2.7rem;  */
+    margin-right: 140px;
+    margin-bottom: 6.5rem;
+}
+
+.search button{
+    background-color: #0074D9;
+    color: #f2f2f2;
+    float: right;
+    padding: 8px 12px;
+    /* margin-right: 16px; */
+    font-size: 32px;
+    border: none;
+    cursor: pointer;
+}
+
+.nocourse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.nocourse h1 {
+    text-align: center;
+}
